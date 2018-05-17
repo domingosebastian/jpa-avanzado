@@ -11,4 +11,4 @@ El analizador de Maven nos informaba de la situación con:
 
 '''mvn dependency:analyze'''
 
-Este proyecto corrige la situacion modificando el fichero [pom.xml]
+Este proyecto corrige la situacion modificando el fichero [pom.xml](pom.xml)
