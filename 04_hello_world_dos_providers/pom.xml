@@ -15,6 +15,10 @@
 
 	<dependencies>
 
+       <!-- 
+          Sin ninguna modificacion en el persistence.xml, la primera dependencia
+          determinará el provider usado
+        -->
 
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
@@ -28,6 +32,7 @@
             <version>5.2.12.Final</version>
         </dependency>
 
+        <!-- La base de datos es común para las dos configuraciones -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
