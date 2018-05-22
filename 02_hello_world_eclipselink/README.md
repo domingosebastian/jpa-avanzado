@@ -1,4 +1,4 @@
-Proyecto main mínimo con JPA usando EclipseLink.
+## Proyecto main mínimo con JPA usando EclipseLink.
 
 Respecto al anterior proyecto hay los siguientes cambios:
 
