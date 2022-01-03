@@ -12,7 +12,7 @@ public class Persona {
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     
-    public String nombre;
+    private String nombre;
     
     @ManyToOne
     private Persona padre;

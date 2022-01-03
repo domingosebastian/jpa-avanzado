@@ -16,7 +16,7 @@ public class Persona {
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     
-    public String nombre;
+    private String nombre;
     
     @OneToMany(mappedBy="propietario")
     private Set<Coche> coches = new HashSet<>();
